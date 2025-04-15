@@ -71,9 +71,9 @@
                                    required>
                         </div>
 
-                        <div class="flex justify-end">
+                        {{-- <div class="flex justify-end">
                             <a href="/forgotpassword" class="text-sm text-[#27A1FF]">Forgot Password?</a>
-                        </div>
+                        </div> --}}
 
                         <div class="flex justify-center">
                             <button type="submit" class="text-white mt-2 mb-2 bg-gradient-to-b from-[#7CABCF] to-[#3285D8] hover:from-primary-600 hover:to-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-7 py-2.5 text-center shadow-[0px_5px_15px_rgba(0,0,0,0.3)]">

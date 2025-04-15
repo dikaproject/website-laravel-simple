@@ -13,16 +13,16 @@
         <!-- Menu Navbar di Tengah -->
         <div class="flex space-x-6">
             <x-navbar-link href="/dashboard" :active="request()->is('dashboard*')">Dashboard</x-nav-link>
-            <x-navbar-link href="/transaction" :active="request()->is('transaction*')">Transaksi</x-nav-link>
+            {{-- <x-navbar-link href="/transaction" :active="request()->is('transaction*')">Transaksi</x-nav-link> --}}
         </div>
 
-        <!-- Tombol di Kanan -->
+        {{-- <!-- Tombol di Kanan -->
         <div id="divButton" class="relative rounded-full p-2 flex items-center">
     <!-- Tombol Profil -->
     <a href="/viewdataarsip" id="profileButton" class="bg-transparent border border-white text-white px-3 py-2.5 text-sm rounded-full hover:bg-white hover:bg-opacity-20 transition ml-24">
         <img src="/images/can.png" alt="">
     </a>
-</div>
+</div> --}}
 
     </div>
 

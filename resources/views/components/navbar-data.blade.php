@@ -41,7 +41,7 @@
             <p class="text-4xl font-semibold">{{ $counts['jamaahHajiCount'] }}</p>
         </a>
     </div>
-@elseif (request()->is('transaction*'))
+{{-- @elseif (request()->is('transaction*'))
     <!-- Navbar 2 (Untuk Transaction) -->
     <div class="grid grid-cols-4 gap-4 px-2 mt-4 py- bg">
         <a href="{{ url('transaction/datawl') }}"
@@ -72,4 +72,4 @@
             <p class="text-4xl font-semibold">{{ $counts['jamaahHajiCount'] }}</p>
         </a>
     </div>
-@endif
+@endif --}}

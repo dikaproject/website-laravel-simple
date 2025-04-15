@@ -23,7 +23,7 @@
 
         <x-newtrcs :dataTransaksi="$dataTransaksi" />
 
-        <div class="max-w-screen-xl mx-6 my-8 rounded-2xl">
+        {{-- <div class="max-w-screen-xl mx-6 my-8 rounded-2xl">
             <div class="flex items-center justify-between w-full px-4 py-4">
                 <!-- Header Dashboard -->
                 <div>
@@ -43,7 +43,7 @@
             <x-chart type="datawd"></x-chart>
             <x-chart type="dataju"></x-chart>
             </div>
-        </div>
+        </div> --}}
 
     </section>
 </html>
