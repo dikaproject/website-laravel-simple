@@ -21,7 +21,7 @@
 
         <x-navbar></x-navbar>
 
-        <x-newtrcs :dataTransaksi="$dataTransaksi" />
+        {{-- <x-newtrcs :dataTransaksi="$dataTransaksi" /> --}}
 
         {{-- <div class="max-w-screen-xl mx-6 my-8 rounded-2xl">
             <div class="flex items-center justify-between w-full px-4 py-4">
